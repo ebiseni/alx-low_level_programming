@@ -1,18 +1,19 @@
-#include "main.h"
+#include <stdio.h>
+
 /**
-* main - Entry point
-* write a program tha prints Holberton, followed by a new line.
-* Return: Always (Success)
-*/
+ * main -  prints _putchar, followed by a new line
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char *ch = "_putchar";
+	fputchar('_');
+	fputchar('p');
+	fputchar('u');
+	fputchar('t');
+	fputchar('c');
+	fputchar('h');
+	fputchar('a');
+	fputchar('r');
 
-	while (*ch)
-	{
-		_putchar(*ch);
-		ch++;
-	}
-	_putchar('\n');
-return (0);
+	return (0);
 }
